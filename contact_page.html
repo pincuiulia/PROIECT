@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Iulia">
+    <meta name="description" content="Presentation Site">
+    <meta name="keywords" content="CV">
+    
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <title>Presentation Site</title>
+  </head>
+  <body>  
+
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="assets/img/logo_icon.png" alt="logo">
+        </div>
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li class="dropdown">
+            <a href="#work">Work</a>
+            <div class="dropdown-content">
+              <a href="#">Modeling</a>
+              <a href="#">Photo retouching</a>
+              <a href="#">Programming </a>
+            </div>
+          </li>
+          <li><a href="contact_page.html">Contact</a></li>
+        </ul>
+      </nav>
+      
+      </header>
+
+
+<main>
+  
+  <div class="form-box">
+    <h2 style="text-align: center;">Contact Form</h2>
+  <form id="myForm">
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" required>
+  
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" required>
+  
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+  
+    <label for="service">Service:</label>
+    <select id="service" name="service">
+      <option value="modeling">Modeling</option>
+      <option value="programming">Programming</option>
+      <option value="photoRetouch">Photo retouch</option>
+    </select>
+  
+    <label for="date">Date:</label>
+  <input type="text" id="date" name="date" pattern="\d{4}-\d{2}-\d{2}" placeholder="YYYY-MM-DD" required>
+
+  <label for="checkbox">Robot test:</label>
+<input type="checkbox" id="checkbox" name="checkbox" checked/>
+
+    <input type="submit" value="Submit" id="submitButton"> 
+ 
+
+    <button id="colorButton">Schimbă culoarea fundalului</button>
+  </form>
+  </div>
+
+  <p id="message"></p>
+
+</main>
+
+
+<footer>
+  <div class="social-media">
+    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-facebook"></i>
+    </a>
+  </div>
+</footer>
+
+     <!-- JavaScript -->
+     <script src="assets/script.js"></script>
+  </body>
+</html>
